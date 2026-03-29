@@ -12,11 +12,7 @@ end
 function M.blend(fg, bg, alpha)
   local fr, fg_g, fb = M.hex_to_rgb(fg)
   local br, bg_g, bb = M.hex_to_rgb(bg)
-  return M.rgb_to_hex(
-    alpha * fr + (1 - alpha) * br,
-    alpha * fg_g + (1 - alpha) * bg_g,
-    alpha * fb + (1 - alpha) * bb
-  )
+  return M.rgb_to_hex(alpha * fr + (1 - alpha) * br, alpha * fg_g + (1 - alpha) * bg_g, alpha * fb + (1 - alpha) * bb)
 end
 
 function M.darken(hex, amount)
@@ -26,11 +22,7 @@ end
 
 function M.lighten(hex, amount)
   local r, g, b = M.hex_to_rgb(hex)
-  return M.rgb_to_hex(
-    r + (255 - r) * amount,
-    g + (255 - g) * amount,
-    b + (255 - b) * amount
-  )
+  return M.rgb_to_hex(r + (255 - r) * amount, g + (255 - g) * amount, b + (255 - b) * amount)
 end
 
 return M
