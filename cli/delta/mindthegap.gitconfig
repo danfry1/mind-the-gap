@@ -1,0 +1,23 @@
+# Mind the Gap — Mind the Gap (dark)
+# Add to your .gitconfig: [include] path = /path/to/mindthegap.gitconfig
+
+[delta "mindthegap"]
+    dark = true
+    syntax-theme = none
+    file-style = "#d8dce8" bold
+    file-decoration-style = "#1e2844" ul
+    hunk-header-style = "#708098"
+    hunk-header-decoration-style = "#1e2844" ul
+    minus-style = syntax "#162038"
+    minus-emph-style = syntax bold "#1e2844"
+    plus-style = syntax "#162038"
+    plus-emph-style = syntax bold "#1e2844"
+    minus-non-emph-style = syntax "#0c1628"
+    plus-non-emph-style = syntax "#0c1628"
+    line-numbers = true
+    line-numbers-minus-style = "#E32017"
+    line-numbers-plus-style = "#00B850"
+    line-numbers-zero-style = "#708098"
+    line-numbers-left-style = "#1e2844"
+    line-numbers-right-style = "#1e2844"
+    blame-palette = "#0c1628 #162038 #081020 #1e2844"

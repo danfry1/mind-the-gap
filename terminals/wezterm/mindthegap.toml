@@ -1,0 +1,67 @@
+# Mind the Gap — Mind the Gap (dark)
+# https://github.com/danfry1/mind-the-gap
+
+[colors]
+foreground = "#d8dce8"
+background = "#0c1628"
+cursor_bg = "#E32017"
+cursor_fg = "#0c1628"
+cursor_border = "#E32017"
+selection_fg = "#d8dce8"
+selection_bg = "#1e2844"
+scrollbar_thumb = "#283450"
+split = "#1e2844"
+compose_cursor = "#FFD300"
+ansi = [
+  "#424C60",
+  "#E32017",
+  "#00B850",
+  "#FFD300",
+  "#5088D0",
+  "#D060A8",
+  "#00A4A7",
+  "#A0A5A9",
+]
+brights = [
+  "#586878",
+  "#D89850",
+  "#50D880",
+  "#EE7C0E",
+  "#0098D4",
+  "#9B70D8",
+  "#80D0C0",
+  "#d8dce8",
+]
+
+[colors.tab_bar]
+background = "#04081a"
+
+[colors.tab_bar.active_tab]
+bg_color = "#0c1628"
+fg_color = "#d8dce8"
+intensity = "Normal"
+underline = "None"
+italic = false
+strikethrough = false
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#081020"
+fg_color = "#708098"
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "#162038"
+fg_color = "#a8b0c0"
+italic = true
+
+[colors.tab_bar.new_tab]
+bg_color = "#04081a"
+fg_color = "#708098"
+
+[colors.tab_bar.new_tab_hover]
+bg_color = "#162038"
+fg_color = "#d8dce8"
+italic = true
+
+[metadata]
+name = "Mind the Gap"
+origin_url = "https://github.com/danfry1/mind-the-gap"

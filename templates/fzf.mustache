@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Mind the Gap — {{name}} ({{variant}})
+# https://github.com/danfry1/mind-the-gap
+
+export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
+  --color=bg:{{backgrounds.base}},bg+:{{backgrounds.surface0}},fg:{{foregrounds.subtext}},fg+:{{foregrounds.text}} \
+  --color=hl:{{accents.elizabeth}},hl+:{{accents.hammersmith}},info:{{accents.victoria}},marker:{{accents.district}} \
+  --color=prompt:{{accents.elizabeth}},spinner:{{accents.dlr}},pointer:{{accents.hammersmith}},header:{{accents.victoria}} \
+  --color=border:{{backgrounds.surface1}},label:{{foregrounds.overlay}},query:{{foregrounds.text}}"

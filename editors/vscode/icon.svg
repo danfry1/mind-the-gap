@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <clipPath id="rounded">
+      <rect width="256" height="256" rx="40" ry="40"/>
+    </clipPath>
+    <radialGradient id="glow" cx="128" cy="128" r="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1a2848"/>
+      <stop offset="100%" stop-color="#0c1628"/>
+    </radialGradient>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <!-- Background -->
+    <rect width="256" height="256" fill="#0c1628"/>
+    <circle cx="128" cy="128" r="120" fill="url(#glow)"/>
+
+    <!-- Colored ambient glow behind lines -->
+    <line x1="24" y1="88" x2="232" y2="88"
+          stroke="#00B850" stroke-width="32" stroke-linecap="round" opacity="0.06"/>
+    <line x1="24" y1="168" x2="232" y2="168"
+          stroke="#EE7C0E" stroke-width="32" stroke-linecap="round" opacity="0.06"/>
+    <path d="M 168,24 L 168,88 L 88,168 L 88,232"
+          stroke="#9B70D8" stroke-width="32" stroke-linecap="round"
+          stroke-linejoin="round" fill="none" opacity="0.06"/>
+    <path d="M 88,24 L 88,88 L 168,168 L 168,232"
+          stroke="#0098D4" stroke-width="32" stroke-linecap="round"
+          stroke-linejoin="round" fill="none" opacity="0.06"/>
+
+    <!-- District (green) — horizontal top route -->
+    <line x1="24" y1="88" x2="232" y2="88"
+          stroke="#00B850" stroke-width="16" stroke-linecap="round"/>
+
+    <!-- Overground (orange) — horizontal bottom route -->
+    <line x1="24" y1="168" x2="232" y2="168"
+          stroke="#EE7C0E" stroke-width="16" stroke-linecap="round"/>
+
+    <!-- Elizabeth (purple) — split to weave behind blue at center -->
+    <path d="M 168,24 L 168,88 L 132,124"
+          stroke="#9B70D8" stroke-width="16" stroke-linecap="round"
+          stroke-linejoin="round" fill="none"/>
+    <path d="M 124,132 L 88,168 L 88,232"
+          stroke="#9B70D8" stroke-width="16" stroke-linecap="round"
+          stroke-linejoin="round" fill="none"/>
+
+    <!-- Victoria (blue) — on top at center crossing -->
+    <path d="M 88,24 L 88,88 L 168,168 L 168,232"
+          stroke="#0098D4" stroke-width="16" stroke-linecap="round"
+          stroke-linejoin="round" fill="none"/>
+
+    <!-- Interchange stations -->
+    <circle cx="88"  cy="88"  r="12" fill="#0c1628" stroke="#d8dce8" stroke-width="4.5"/>
+    <circle cx="168" cy="88"  r="12" fill="#0c1628" stroke="#d8dce8" stroke-width="4.5"/>
+    <circle cx="168" cy="168" r="12" fill="#0c1628" stroke="#d8dce8" stroke-width="4.5"/>
+    <circle cx="88"  cy="168" r="12" fill="#0c1628" stroke="#d8dce8" stroke-width="4.5"/>
+  </g>
+</svg>

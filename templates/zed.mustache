@@ -1,0 +1,214 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Mind the Gap",
+  "author": "Daniel Fry",
+  "themes": [
+    {
+      "name": "Mind the Gap",
+      "appearance": "dark",
+      "style": {
+        "background": "{{backgrounds.base}}",
+        "border": "{{backgrounds.surface1}}",
+        "border.variant": "{{backgrounds.surface2}}",
+        "border.focused": "{{accents.elizabeth}}80",
+        "border.selected": "{{accents.elizabeth}}",
+        "border.transparent": "#00000000",
+        "border.disabled": "{{backgrounds.surface1}}",
+
+        "elevated_surface.background": "{{backgrounds.surface0}}",
+        "surface.background": "{{backgrounds.mantle}}",
+
+        "element.background": "{{backgrounds.surface0}}",
+        "element.hover": "{{backgrounds.surface0}}",
+        "element.active": "{{backgrounds.surface1}}",
+        "element.selected": "{{backgrounds.surface1}}",
+        "element.disabled": "{{backgrounds.surface0}}80",
+
+        "drop_target.background": "{{backgrounds.surface1}}80",
+
+        "ghost_element.background": "#00000000",
+        "ghost_element.hover": "{{backgrounds.surface0}}",
+        "ghost_element.active": "{{backgrounds.surface1}}",
+        "ghost_element.selected": "{{backgrounds.surface1}}",
+        "ghost_element.disabled": "{{backgrounds.surface0}}80",
+
+        "text": "{{foregrounds.text}}",
+        "text.muted": "{{foregrounds.subtext}}",
+        "text.placeholder": "{{foregrounds.overlay}}",
+        "text.disabled": "{{foregrounds.overlay}}80",
+        "text.accent": "{{accents.elizabeth}}",
+
+        "icon": "{{foregrounds.subtext}}",
+        "icon.muted": "{{foregrounds.overlay}}",
+        "icon.disabled": "{{foregrounds.overlay}}80",
+        "icon.placeholder": "{{foregrounds.overlay}}",
+        "icon.accent": "{{accents.elizabeth}}",
+
+        "status_bar.background": "{{backgrounds.mantle}}",
+        "title_bar.background": "{{backgrounds.crust}}",
+        "title_bar.inactive_background": "{{backgrounds.crust}}",
+        "toolbar.background": "{{backgrounds.base}}",
+
+        "tab_bar.background": "{{backgrounds.crust}}",
+        "tab.active_background": "{{backgrounds.base}}",
+        "tab.inactive_background": "{{backgrounds.crust}}",
+
+        "search.match_background": "{{accents.circle}}40",
+
+        "panel.background": "{{backgrounds.base}}",
+        "panel.focused_border": "{{accents.elizabeth}}",
+
+        "pane.focused_border": "{{accents.elizabeth}}",
+
+        "scrollbar.thumb.background": "{{backgrounds.surface2}}80",
+        "scrollbar.thumb.hover_background": "{{backgrounds.surface2}}b0",
+        "scrollbar.thumb.border": "#00000000",
+        "scrollbar.track.background": "#00000000",
+        "scrollbar.track.border": "#00000000",
+
+        "editor.background": "{{backgrounds.base}}",
+        "editor.foreground": "{{foregrounds.text}}",
+        "editor.gutter.background": "{{backgrounds.base}}",
+        "editor.active_line.background": "{{backgrounds.surface0}}",
+        "editor.highlighted_line.background": "{{backgrounds.surface0}}",
+        "editor.line_number": "{{foregrounds.overlay}}",
+        "editor.active_line_number": "{{accents.elizabeth}}",
+        "editor.indent_guide": "{{backgrounds.surface1}}",
+        "editor.indent_guide_active": "{{backgrounds.surface2}}",
+        "editor.wrap_guide": "{{backgrounds.surface1}}",
+        "editor.invisible": "{{backgrounds.surface1}}",
+        "editor.subheader.background": "{{backgrounds.mantle}}",
+
+        "link_text.hover": "{{accents.victoria}}",
+
+        "conflict": "{{accents.hammersmith}}",
+        "conflict.background": "{{accents.hammersmith}}20",
+        "conflict.border": "{{accents.hammersmith}}",
+
+        "created": "{{accents.district}}",
+        "created.background": "{{accents.district}}20",
+        "created.border": "{{accents.district}}",
+
+        "deleted": "{{accents.central}}",
+        "deleted.background": "{{accents.central}}20",
+        "deleted.border": "{{accents.central}}",
+
+        "error": "{{accents.central}}",
+        "error.background": "{{accents.central}}20",
+        "error.border": "{{accents.central}}",
+
+        "hidden": "{{foregrounds.overlay}}",
+        "hidden.background": "{{backgrounds.mantle}}",
+        "hidden.border": "{{backgrounds.surface1}}",
+
+        "hint": "{{accents.dlr}}",
+        "hint.background": "{{accents.dlr}}20",
+        "hint.border": "{{accents.dlr}}",
+
+        "ignored": "{{foregrounds.overlay}}",
+        "ignored.background": "{{backgrounds.mantle}}",
+        "ignored.border": "{{backgrounds.surface1}}",
+
+        "info": "{{accents.victoria}}",
+        "info.background": "{{accents.victoria}}20",
+        "info.border": "{{accents.victoria}}",
+
+        "modified": "{{accents.victoria}}",
+        "modified.background": "{{accents.victoria}}20",
+        "modified.border": "{{accents.victoria}}",
+
+        "predictive": "{{foregrounds.overlay}}",
+        "predictive.background": "{{backgrounds.surface0}}",
+        "predictive.border": "{{backgrounds.surface1}}",
+
+        "renamed": "{{accents.victoria}}",
+        "renamed.background": "{{accents.victoria}}20",
+        "renamed.border": "{{accents.victoria}}",
+
+        "success": "{{accents.district}}",
+        "success.background": "{{accents.district}}20",
+        "success.border": "{{accents.district}}",
+
+        "unreachable": "{{foregrounds.overlay}}",
+        "unreachable.background": "{{backgrounds.mantle}}",
+        "unreachable.border": "{{backgrounds.surface1}}",
+
+        "warning": "{{accents.circle}}",
+        "warning.background": "{{accents.circle}}20",
+        "warning.border": "{{accents.circle}}",
+
+        "terminal.background": "{{backgrounds.base}}",
+        "terminal.foreground": "{{foregrounds.text}}",
+        "terminal.bright_foreground": "{{foregrounds.text}}",
+        "terminal.dim_foreground": "{{foregrounds.subtext}}",
+        "terminal.ansi.black": "{{ansi.black}}",
+        "terminal.ansi.red": "{{ansi.red}}",
+        "terminal.ansi.green": "{{ansi.green}}",
+        "terminal.ansi.yellow": "{{ansi.yellow}}",
+        "terminal.ansi.blue": "{{ansi.blue}}",
+        "terminal.ansi.magenta": "{{ansi.magenta}}",
+        "terminal.ansi.cyan": "{{ansi.cyan}}",
+        "terminal.ansi.white": "{{ansi.white}}",
+        "terminal.ansi.bright_black": "{{ansi.brightBlack}}",
+        "terminal.ansi.bright_red": "{{ansi.brightRed}}",
+        "terminal.ansi.bright_green": "{{ansi.brightGreen}}",
+        "terminal.ansi.bright_yellow": "{{ansi.brightYellow}}",
+        "terminal.ansi.bright_blue": "{{ansi.brightBlue}}",
+        "terminal.ansi.bright_magenta": "{{ansi.brightMagenta}}",
+        "terminal.ansi.bright_cyan": "{{ansi.brightCyan}}",
+        "terminal.ansi.bright_white": "{{ansi.brightWhite}}",
+
+        "players": [
+          { "cursor": "{{special.cursor}}", "background": "{{special.cursor}}20", "selection": "{{special.selection}}" },
+          { "cursor": "{{accents.victoria}}", "background": "{{accents.victoria}}20", "selection": "{{special.selection}}" },
+          { "cursor": "{{accents.district}}", "background": "{{accents.district}}20", "selection": "{{special.selection}}" },
+          { "cursor": "{{accents.overground}}", "background": "{{accents.overground}}20", "selection": "{{special.selection}}" },
+          { "cursor": "{{accents.elizabeth}}", "background": "{{accents.elizabeth}}20", "selection": "{{special.selection}}" },
+          { "cursor": "{{accents.dlr}}", "background": "{{accents.dlr}}20", "selection": "{{special.selection}}" },
+          { "cursor": "{{accents.circle}}", "background": "{{accents.circle}}20", "selection": "{{special.selection}}" },
+          { "cursor": "{{accents.central}}", "background": "{{accents.central}}20", "selection": "{{special.selection}}" }
+        ],
+
+        "syntax": {
+          "attribute": { "color": "{{accents.victoria}}", "font_style": "italic" },
+          "boolean": { "color": "{{accents.overground}}" },
+          "comment": { "color": "{{foregrounds.comment}}", "font_style": "italic" },
+          "comment.doc": { "color": "{{foregrounds.comment}}", "font_style": "italic" },
+          "constant": { "color": "{{accents.overground}}" },
+          "constructor": { "color": "{{accents.overground}}" },
+          "emphasis": { "color": "{{accents.hammersmith}}", "font_style": "italic" },
+          "emphasis.strong": { "color": "{{accents.overground}}", "font_weight": 700 },
+          "enum": { "color": "{{accents.overground}}" },
+          "function": { "color": "{{accents.victoria}}" },
+          "keyword": { "color": "{{accents.elizabeth}}", "font_style": "italic" },
+          "label": { "color": "{{accents.hammersmith}}" },
+          "link_text": { "color": "{{accents.victoria}}" },
+          "link_uri": { "color": "{{accents.victoria}}" },
+          "namespace": { "color": "{{foregrounds.text}}" },
+          "number": { "color": "{{accents.circle}}" },
+          "operator": { "color": "{{accents.hammersmith}}" },
+          "preproc": { "color": "{{accents.dlr}}" },
+          "primary": { "color": "{{foregrounds.text}}" },
+          "property": { "color": "{{foregrounds.text}}" },
+          "punctuation": { "color": "{{foregrounds.overlay}}" },
+          "punctuation.bracket": { "color": "{{foregrounds.overlay}}" },
+          "punctuation.delimiter": { "color": "{{foregrounds.overlay}}" },
+          "punctuation.list_marker": { "color": "{{accents.hammersmith}}" },
+          "punctuation.special": { "color": "{{accents.dlr}}" },
+          "string": { "color": "{{accents.district}}" },
+          "string.escape": { "color": "{{accents.dlr}}" },
+          "string.regex": { "color": "{{accents.dlr}}" },
+          "string.special": { "color": "{{accents.dlr}}" },
+          "string.special.symbol": { "color": "{{accents.overground}}" },
+          "tag": { "color": "{{accents.dlr}}" },
+          "text.literal": { "color": "{{accents.district}}" },
+          "title": { "color": "{{accents.elizabeth}}", "font_weight": 700 },
+          "type": { "color": "{{accents.overground}}" },
+          "variable": { "color": "{{foregrounds.text}}" },
+          "variable.special": { "color": "{{foregrounds.text}}", "font_style": "italic" },
+          "variant": { "color": "{{accents.overground}}" }
+        }
+      }
+    }
+  ]
+}

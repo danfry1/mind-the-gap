@@ -1,0 +1,56 @@
+# Mind the Gap — Mind the Gap (dark)
+[colors.primary]
+foreground = "#d8dce8"
+background = "#0c1628"
+
+[colors.cursor]
+text = "#0c1628"
+cursor = "#E32017"
+
+[colors.vi_mode_cursor]
+text = "#0c1628"
+cursor = "#9B70D8"
+
+[colors.selection]
+text = "CellForeground"
+background = "#1e2844"
+
+[colors.search.matches]
+foreground = "#0c1628"
+background = "#FFD300"
+
+[colors.search.focused_match]
+foreground = "#0c1628"
+background = "#EE7C0E"
+
+[colors.hints.start]
+foreground = "#0c1628"
+background = "#FFD300"
+
+[colors.hints.end]
+foreground = "#0c1628"
+background = "#0098D4"
+
+[colors.footer_bar]
+foreground = "#d8dce8"
+background = "#081020"
+
+[colors.normal]
+black = "#424C60"
+red = "#E32017"
+green = "#00B850"
+yellow = "#FFD300"
+blue = "#5088D0"
+magenta = "#D060A8"
+cyan = "#00A4A7"
+white = "#A0A5A9"
+
+[colors.bright]
+black = "#586878"
+red = "#D89850"
+green = "#50D880"
+yellow = "#EE7C0E"
+blue = "#0098D4"
+magenta = "#9B70D8"
+cyan = "#80D0C0"
+white = "#d8dce8"

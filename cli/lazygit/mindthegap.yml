@@ -1,0 +1,29 @@
+# Mind the Gap — Mind the Gap (dark)
+# https://github.com/danfry1/mind-the-gap
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#9B70D8"
+      - bold
+    inactiveBorderColor:
+      - "#1e2844"
+    searchingActiveBorderColor:
+      - "#FFD300"
+      - bold
+    optionsTextColor:
+      - "#0098D4"
+    selectedLineBgColor:
+      - "#162038"
+    cherryPickedCommitFgColor:
+      - "#0098D4"
+    cherryPickedCommitBgColor:
+      - "#9B70D8"
+    markedBaseCommitFgColor:
+      - "#0098D4"
+    markedBaseCommitBgColor:
+      - "#FFD300"
+    unstagedChangesColor:
+      - "#E32017"
+    defaultFgColor:
+      - "#d8dce8"

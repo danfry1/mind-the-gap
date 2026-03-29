@@ -1,0 +1,36 @@
+{
+  "name": "mind-the-gap-color-theme",
+  "displayName": "Mind the Gap",
+  "description": "A vibrant dark color theme inspired by the London Underground tube map",
+  "version": "0.1.0",
+  "publisher": "DanielFry",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danfry1/mind-the-gap"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "theme",
+    "color-theme",
+    "tfl",
+    "london-underground",
+    "tube-map"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mind the Gap",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mindthegap-color-theme.json"
+      }
+    ]
+  }
+}
