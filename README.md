@@ -5,6 +5,10 @@
   Built for Neovim, VS Code, terminals, tmux, and CLI tools.
 </p>
 
+<p align="center">
+  <img src="assets/screenshot.png" alt="Mind the Gap theme preview" width="800" />
+</p>
+
 ## Features
 
 - **Tube map colours** — every accent is named after a line, using official TfL values where possible
