@@ -6,6 +6,10 @@
   A vibrant dark color theme inspired by the London Underground tube map.
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/danfry1/mind-the-gap/main/assets/screenshot.png" alt="Mind the Gap theme preview" width="800" />
+</p>
+
 ## Palette
 
 | Swatch | Color | Tube Line | Role |
@@ -29,6 +33,6 @@
 
 ## Also available for
 
-Neovim, Kitty, Alacritty, WezTerm, Ghostty, iTerm2, foot, Windows Terminal, tmux, fzf, bat, delta, lazygit, and OpenCode.
+Neovim, Zed, Kitty, Alacritty, WezTerm, Ghostty, iTerm2, foot, Windows Terminal, tmux, fzf, bat, delta, lazygit, and OpenCode.
 
 See the full project at [github.com/danfry1/mind-the-gap](https://github.com/danfry1/mind-the-gap).
