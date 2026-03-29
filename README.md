@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="editors/vscode/icon.svg" alt="Mind the Gap logo" width="128" />
+</p>
+
 <h1 align="center">Mind the Gap</h1>
 
 <p align="center">
